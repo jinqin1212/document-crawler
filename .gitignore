@@ -1,0 +1,8 @@
+.venv/
+venv/
+.mplconfig/
+*.env
+!config.example.env
+data/raw/*.html
+# 含 Cookie，勿提交
+data/wenshu_state.json
